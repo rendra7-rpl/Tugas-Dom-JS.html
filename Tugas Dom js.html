@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Dom JS Pak Unggah</title>
+</head>
+<body>
+    <h1 id="judul">Website RPL 2</h1>
+    <button id="ubahteks">Click Me!</button>
+
+    <script>
+        const button = document.getElementById("ubahteks");
+        const judul = document.getElementById("judul");
+
+        button.addEventListener("click", function() {
+            judul.textContent = "Selamat datang di website buatan anak XI RPL 2";
+        }
+    );
+    </script>
+</body>
+</html>
